@@ -5,7 +5,7 @@ go 1.13
 require (
 	github.com/getsentry/sentry-go v0.29.0
 	github.com/pkg/errors v0.9.1 // indirect
-	github.com/stretchr/testify v1.9.0
+	github.com/stretchr/testify v1.10.0
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
 )
 
@@ -17,6 +17,6 @@ replace (
 	// See: https://github.com/golang/go/issues/37352
 	github.com/coreos/etcd => github.com/coreos/etcd v3.3.27+incompatible
 	github.com/gorilla/websocket => github.com/gorilla/websocket v1.4.2
-	github.com/labstack/echo/v4 => github.com/labstack/echo/v4 v4.2.0
+	github.com/labstack/echo/v4 => github.com/labstack/echo/v4 v4.13.3
 	golang.org/x/text => golang.org/x/text v0.18.0
 )
